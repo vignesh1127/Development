@@ -1,0 +1,364 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width:100%;
+  height: 100%;
+  overflow-x:hidden !important;
+  
+}
+
+header{
+  position: relative;
+  width: 99%;
+  height: 300px;
+  background-color: blue;
+  margin: 5px 5px
+}
+
+nav{
+  float: right;
+  margin:20px;
+}
+
+nav a{
+  margin: 0 10px;
+  color: white;
+  font-size: 12px;
+}
+
+.logo{
+  position: relative;
+  margin-left: 20px;
+  top: 30px;
+}
+
+.header-text img{
+  position: relative;
+  margin-left: 20px;
+  top: 80px
+}
+
+.header-text h2{
+  position: relative;
+  margin-left: 20px;
+  top:80px;
+  color: white;
+}
+
+.header-text p{
+  position: relative;
+  margin-left: 20px;
+  top:90px;
+  color: white;
+}
+
+.header-image{
+  position: absolute;
+  left: 850px;
+  width: 400px;
+  height: 300px;
+  top:100px;
+}
+
+.companies a{
+  text-decoration: none;
+  margin: 10px 20px;
+  font-family: "Righteous";
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+}
+
+.api{
+  position: relative;
+}
+
+.api-heading{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.cards{
+  position: relative;
+  /* margin:20px 0px; */
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.card,.card-active{
+  width: 200px;
+  height: 170px;
+}
+
+.card-logo{
+  margin: 10px;
+}
+
+.card, .card- h3{
+  font-size: 15px;
+  margin: 10px 20px;
+}
+
+.card,.card-active p{
+  font-size: 10px;
+  margin: 10px 10px;
+}
+
+
+.card-head-active,
+.card-head{
+  font-size: 15px;
+  margin: 10px 10px;
+}
+
+.card-body-active,
+.card-body{
+  font-size: 10px;
+  margin: 10px 10px;
+}
+
+.card-head-active{
+  color: blue;
+}
+
+.card-active{
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+}
+
+.card:hover{
+  box-shadow: 1px 1px 5px black;
+  border-radius: 10px;
+}
+
+.blog-heading{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.blog-cards{
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-left: 40px;
+  margin-top: 20px;
+  column-gap: 50px;
+  width: 100%;
+}
+
+.blog-card{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 10px;
+  width: 500px;
+  height: 173px;
+  border-top-left-radius: 30px;
+}
+
+.blog-content{
+  position: relative;
+  left:150px;
+  top:20px
+}
+
+.blog-content h6{
+  margin-bottom: 5px;
+}
+
+.blog-content h3{
+  font-size: 12px;
+} 
+
+.blog-content small{
+  font-size: 10px;
+} 
+
+.blog-image img{
+  position: relative;
+  width: 150px;
+  object-fit:auto;
+  /* height: 200px; */
+}
+
+.blog-card-bottom-image{
+  position: absolute;
+  width: 30px;
+  left:250px;
+  top: 15px;
+}
+
+.blog-author{
+  position: relative;
+  font-size: 10px;
+  left:-130px;
+  top: 10px;
+}
+
+.faq-section{
+  position: relative;
+  top:30px;
+  width: 100%;
+  height: 200px;
+  background-color: #e9edff;
+}
+
+.faq-section .faq-content h2{
+  position: relative;
+  top: 10px;
+  left:40px;
+  font-size: 20px;
+}
+
+.faq-section .faq-content h4{
+  position: relative;
+  top: 30px;
+  left:40px;
+  font-size: 10px;
+}
+
+.faq-section button{
+  position: relative;
+  top: 50px;
+  left:40px;
+  width: 150px;
+  height: 25px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.faq-image{
+  position: absolute;
+  float: right;
+  right: 130px;
+  bottom: -6px;
+}
+
+.faq-image img{
+  width: 370px;
+}
+
+.download-section{
+  display: flex;
+  position: relative;
+  top:90px;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.download-section .download-content h1{
+  position: relative;
+  left: 40px;
+}
+
+.download-section .download-content h1 span{
+  position: relative;
+  font-size: 20px;
+}
+
+.download-email{
+  position: relative;
+  right: 150px;
+  align-items: center;
+}
+
+.download-email form input{
+  position: relative;
+  height:30px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #e9edff;
+  border: none;
+}
+
+.download-email form input::placeholder{
+  position: relative;
+  left:40px;
+}
+
+
+.download-email form button{
+  position: relative;
+  width: 120px;
+  border-radius: 20px;
+  height: 30px;
+  right: 127px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.footer-section{
+  position: relative;
+  display: flex;
+  top:130px;
+  height: 20vh;
+  justify-content: space-between;
+  background-color: blue;
+  overflow-y: hidden;
+}
+
+.footer-left{
+  position: relative;
+  top:20px;
+  left:40px
+}
+
+.footer-logo{
+  position: relative;
+  width: 60px;
+  top:10px;
+}
+
+
+.list{
+  position: relative;
+  display: flex;
+  column-gap: 20px;
+  top: 20px;
+}
+
+.list-items{
+  list-style: none;
+  color: white;
+  font-size: 10px;
+}
+
+.footer-right{
+  position: relative;
+  top:20px;
+  right:100px;
+}
+
+.footer-right img{
+ position: relative;
+ top: 20px;
+  margin: 0 10px;
+  width: 20px;
+}
+
+.logos-list{
+  position: relative;
+  display: flex;
+  top:30px;
+  left:10px;
+  column-gap: 10px;
+}
+
+.list-items{
+  color: white;
+}
